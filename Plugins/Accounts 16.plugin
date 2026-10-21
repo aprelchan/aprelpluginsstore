@@ -2,14 +2,13 @@ from base_plugin import BasePlugin, MethodHook
 from hook_utils import find_class
 from java.lang import Boolean, Thread
 
-__id__ = "accounts_limit_16"
-__name__ = "16 Accounts"
-__description__ = "Raises the account limit to 16."
-__author__ = "@kvucoplugins"
-__version__ = "1.0"
-__icon__ = "PremiumGifts/23"
-__app_version__ = ">=12.5.1"
-__sdk_version__ = ">=1.4.0"
+__id__ = "accounts16"
+__name__ = "Accounts 16"
+__description__ = "Позволяет использовать до 16 аккаунтов (снимает ограничение)."
+__author__ = "Aprel Team"
+__version__ = "1.0.0"
+__app_version__ = ">=1.0.0"
+__sdk_version__ = ">=1.4.0.0"
 
 
 USER_CONFIG_CLASS = "org.telegram.messenger.UserConfig"
